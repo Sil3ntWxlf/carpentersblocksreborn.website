@@ -363,7 +363,7 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.25;
 }
 
 h1, .h1 {
@@ -371,7 +371,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: 2rem;
+  font-size: 1.90rem;
 }
 
 h3, .h3 {
@@ -9899,7 +9899,7 @@ button.bg-black:focus {
 }
 
 .text-white {
-  color: #de8e2b !important;
+  color: rgba(255, 255, 255, 0.5) !important;
 }
 
 .text-primary {
@@ -10154,15 +10154,15 @@ body {
   }
   #mainNav .navbar-brand {
     padding: 0.5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.65);
   }
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(207, 207, 207, 0.85);
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 1);
   }
   #mainNav .nav-link:active {
     color: #425e66;
@@ -10174,7 +10174,7 @@ body {
     color: #a6a6a6;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #a6a6a6;
+    color: #cfcfcf;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
@@ -10217,8 +10217,8 @@ body {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 2.5rem;
   line-height: 2.5rem;
-  letter-spacing: 0.8rem;
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  letter-spacing: 0.6rem;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.2));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
           background-clip: text;
@@ -10239,7 +10239,7 @@ body {
     padding: 0;
   }
   .masthead h1 {
-    font-size: 6.5rem;
+    font-size: 4.5rem;
     line-height: 6.5rem;
     letter-spacing: 0.8rem;
   }
@@ -10250,7 +10250,7 @@ body {
 }
 
 .about-section {
-  padding-top: 10rem;
+  padding-top: 1.5rem;
   background: linear-gradient(to bottom, #010101 0%, rgba(0, 7, 11, 1) 80%, rgba(0, 7, 11, 1) 100%);
 }
 .about-section p {
@@ -10304,7 +10304,7 @@ body {
 }
 
 .contact-section {
-  padding-top: 5rem;
+  padding-top: 1.0rem;
 }
 .contact-section .card {
   border: 0;
@@ -10341,7 +10341,7 @@ body {
 }
 
 .footer {
-  padding: 5rem 0;
+  padding: 2.5rem 0;
 }
 
 /* Works on Firefox */
