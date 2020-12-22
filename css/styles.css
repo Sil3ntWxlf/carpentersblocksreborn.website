@@ -10165,10 +10165,10 @@ body {
     color: rgba(255, 255, 255, 0.75);
   }
   #mainNav .nav-link:active {
-    color: #fff;
+    color: #425e66;
   }
   #mainNav.navbar-shrink {
-    background-color: #fff;
+    background-color: #425e66;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #000000;
@@ -10342,4 +10342,25 @@ body {
 
 .footer {
   padding: 5rem 0;
+}
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(66, 94, 102, 1);
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 9px;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 1);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(66, 94, 102, 1);
+  border-radius: 20px;
+  border: 3px rgba(66, 94, 102, 1);
 }
