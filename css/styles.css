@@ -6267,7 +6267,7 @@ button.bg-dark:focus {
 }
 
 .bg-black {
-  background-color: #000000 !important;
+  background-color: rgba(0, 7, 11, 1) !important;
 }
 
 a.bg-black:hover, a.bg-black:focus,
@@ -10304,7 +10304,7 @@ body {
 }
 
 .contact-section {
-  padding-top: 1.0rem;
+  padding-top: 0.5rem;
 }
 .contact-section .card {
   border: 0;
@@ -10341,7 +10341,7 @@ body {
 }
 
 .footer {
-  padding: 2.5rem 0;
+  padding: 3.25rem 0;
 }
 
 /* Works on Firefox */
