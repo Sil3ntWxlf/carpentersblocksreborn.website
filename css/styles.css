@@ -9899,7 +9899,7 @@ button.bg-black:focus {
 }
 
 .text-white {
-  color: #fff !important;
+  color: #de8e2b !important;
 }
 
 .text-primary {
@@ -10171,10 +10171,10 @@ body {
     background-color: #425e66;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #000000;
+    color: #a6a6a6;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #000000;
+    color: #a6a6a6;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
