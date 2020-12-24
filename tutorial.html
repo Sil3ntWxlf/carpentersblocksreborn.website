@@ -1,30 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Tutorial</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="A Minecraft mod." />
+    <meta name="author" content="Sil3ntWxlf" />
+    <title>CBR Tutorial</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/tutorial.css" rel="stylesheet" />
 </head>
-<body>
+<body id="page-top">
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Carpenter'sBlocksReborn</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://carpentersblocksreborn.com/" target="_self">Index</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://carpentersblocksreborn.com/faq" target="_self">FAQ</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://carpentersblocksreborn.com/recipes" target="_self">Recipes</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://carpentersblocksreborn.com/tutorial" target="_self">Tutorial</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://carpentersblocksreborn.com/changelog" target="_self">Changelog</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://carpentersblocksreborn.com/downloads" target="_blank">Downloads</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://github.com/Sil3ntWxlf/carpentersblocksreborn/tree/1.16.x" target="_blank">Github</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Masthead-->
+<header class="masthead">
+    <div class="container d-flex h-100 align-items-center">
+        <div class="mx-auto text-center">
+            <h1 class="mx-auto my-0 text-uppercase">Carpenter's Blocks Reborn</h1>
+            <h2 class="text-white-50 mx-auto mt-2 mb-5">A Forge 1.16.4+ fork bringing new features, functions and customisation to Carpenter's Blocks.</h2>
+            <a class="btn btn-primary js-scroll-trigger" href="https://carpentersblocksreborn.com/downloads" target="_blank">Download Latest 1.16.4</a>
+        </div>
+    </div>
+</header>
+<section>
 <h4>Covers</h4>
 
-<div class="indent">
+<div class="container">
     <p>Once a Carpenter's block is placed in the world, right-click it with any full-size block.  If the block is compatible, it will become the <em>cover</em> block.  This enables the Carpenter's block to mimic most of the donor block's properties including fire and explosion resistance, in addition to displaying it's texture.</p>
     <p>Some Carpenter's blocks (including Block, Slope, and Stairs) support what are known as <em>side covers</em>.  When a Carpenter's block has a cover, clicking any full and solid side will "stick" the block to the side.</p>
     <div style="text-align: center; padding: 20px;">
-        <img src="https://i.imgur.com/XBkYToy.png" alt="Side Covers"></img>
+        <img class="img-fluid" src="assets/img/tools.png" alt="" />
     </div>
     <p>Side covers can be customized independently from the host block, and can be removed from the host block by sneak left-clicking it with the Carpenter's Hammer.</p>
     <p>If you've found a block that is not working as a cover, you can always add it as a cover exception in the configuration file by supplying the display name of the block.</p>
 </div>
+</section>
 
 <hr>
 
+<section>
 <h4>Overlays</h4>
 
-<div class="indent">
+<div class="container">
     <p>Have you ever wanted to see grass adorn blocks besides dirt?  How about mycelium, hay, or snow toppers?  These and others have been made available to you as <em>overlays</em>.  The images below will show you all the available overlays and which item is used to apply them.  Simply hold the item in hand, and sneak right-click the Carpenter's block.</p>
 
-    <div class="figure-container">
+    <section class="figure-container">
 
         <figure>
             <img src="https://i.imgur.com/PD9MUmI.png" alt="Grass Overlay"></img>
@@ -57,19 +102,16 @@
         </figure>
 
         <br style="clear: both;">
-
-    </div>
-
     <br>
-
     <p>You can remove overlays by sneak left-clicking the block with the Carpenter's Hammer.</p>
-</div>
+</section>
 
 <hr>
 
+<section>
 <h4>Dye Colors</h4>
 
-<div class="indent">
+<div class="container">
     <p>Let's explore your color options: take any of the vanilla dye powders, excluding bone meal, and sneak right-click the Carpenter's block.  This will dye the block or side cover, depending on where you click.  To retrieve the dye powder, sneak left-click the block or side cover with the Carpenter's Hammer.</p>
 </div>
 
@@ -77,61 +119,71 @@
 
 <h4>Illumination</h4>
 
-<div class="indent">
+<div class="container">
     <div style="text-align: center; padding: 20px;">
         <img src="https://i.imgur.com/8MPtP2K.png" alt="Illumination"></img>
     </div>
     <p>Carpenter's blocks (excluding tile) can become a light source if you sneak right-click them while holding glowstone dust.  This will make the block emit light and appear to glow.</p>
 </div>
+</section>
 
 <hr>
 
+<section>
 <h4>Chisel Designs</h4>
 
-<div class="indent">
+<div class="container">
     <p>Do you like carving intricate designs into blocks?  Take your Carpenter's Chisel and left- or right-click any covered Carpenter's block.  Left-clicking cycles backwards through patterns, and right-clicking cycles forwards.</p>
     <p>You can add your own chisel designs by dropping your textures into the mod zip or jar file at: <em>assets/carpentersblocks/textures/blocks/designs/chisel/</em></p>
     <p>Once there, they will automatically be available the next time you start the game.  Be sure to check <a href="downloads.html#add_files">additional files</a> section in the download area for chisel design packs.</p>
     <p>If you'd like to submit your own work to be featured in the download area, don't hesitate to ask!</p>
 </div>
+</section>
 
 <hr>
 
+<section>
 <h4>Carpenter's Barrier and Gate</h4>
 
-<div class="indent">
+<div class="container">
     <p>The Carpenter's Barrier will generate posts at intersections and corners automatically.  You can force a post anywhere by left-clicking the barrier with the Carpenter's Hammer.  A forced post will prevent connections to solid faces adjacent to the barrier.</p>
     <p>You have several barrier types available; cycle through them by right-clicking the barrier with the Carpenter's Hammer.  In addition, the vanilla-style barrier offers plank depth adjustments by sneak right-clicking the barrier.</p>
 </div>
+</section>
 
 <hr>
 
+<section>
 <h4>Carpenter's Bed</h4>
 
-<div class="indent">
+<div class="container">
     <p>The Carpenter's Bed handles dye colors differently than the other blocks in this mod.  To dye the frame of the bed, apply the dye to the head of the bed.  To dye the standard blanket color, apply the dye to the foot of the bed.</p>
     <p>If that's too bland for your liking, let's explore bed designs.  Left- or right-click the Carpenter's Bed with the Carpenter's Hammer to cycle backwards or forwards through a collection of custom bed designs.  This will alter the pillow and blanket of the bed.</p>
     <p>You can add your own bed designs by dropping your textures into the mod zip or jar file at: <em>assets/carpentersblocks/textures/blocks/designs/bed/</em></p>
     <p>In there, you will find a template folder that contains sample images you can use to create your own design.  Once done, your designs will automatically be available the next time you start the game.</p>
 </div>
+</section>
 
 <hr>
 
+<section>
 <h4>Carpenter's Block and Slabs</h4>
 
-<div class="indent">
+<div class="container">
     <p>To create a slab, you need the Carpenter's Block.  To shape it into a slab, right- or left-click the block with the Carpenter's Hammer.  The slab will form opposite of the side you hit.  Clicking again in the same way returns the block to a full cube.</p>
     <p>Carpenter's Blocks placed adjacent to the slab will match the neighboring slab type automatically, but won't necessarily be a continuation of the piece depending on orientation.  Hold the sneak key while placing the block to override this behavior.</p>
     <div style="text-align: center; padding: 20px;">
         <img src="https://i.imgur.com/VnycXbW.png" alt="Carpenter's Slab"></img>
     </div>
 </div>
+</section>
 
 <hr>
 
+<section>
 <h4>Carpenter's Button, Lever and Daylight Sensor</h4>
 
-<div class="indent">
+<div class="container">
     <p>Left-click any of these blocks with the Carpenter's Hammer to alter the redstone signal polarity.</p>
     <p>The daylight sensor also has the option of setting sensitivity levels.  Right-click the sensor with the hammer to set when the signal should be cycled on or off, or whether it should output redstone signal dynamically.</p>
     <p>Here's a brief description of the three levels:</p>
@@ -143,21 +195,25 @@
     <p>The daylight sensor can be oriented on the sides of a block, but will suffer from reduced sensitivity depending on the orientation of the sun.</p>
     <p>The button and lever can be placed on any side of a block.</p>
 </div>
+</section>
 
 <hr>
 
+<section>
 <h4>Carpenter's Collapsible Block</h4>
 
-<div class="indent">
+<div class="container">
     <p>Right- or left-click any corner (or quadrant) of this block to lower or raise the quadrant.  The top face of the block will generate slopes automatically.</p>
     <p>The block will attempt to create smooth transitions with nearby blocks automatically.  To prevent this behavior, hold the sneak key while placing the block.</p>
-</div>
+</div>.
+</section>
 
 <hr>
 
+<section>
 <h4>Carpenter's Door, Garage Door and Hatch</h4>
 
-<div class="indent">
+<div class="container">
     <p>These blocks have several styles that you can choose from.  Left- or right-click any part of these blocks with the Carpenter's Hammer to cycle through them.</p>
     <p>Want the block to behave more like the vanilla iron door? Sneak right-click any part of the block to alter the behavior.  The behaviors are straight-forward:
     <ul>
@@ -168,12 +224,14 @@
     <p>In addition, doors or garage doors that should naturally open together will act as a single entity (i.e. double doors, adjacent garage doors).  Connected blocks will share state changes like opening or closing, and applying behavior settings.</p>
     <p>The garage door must be placed underneath a solid block.  Once placed, it will cascade down until it hits another block.</p>
 </div>
+</section>
 
 <hr>
 
+<section>
 <h4>Carpenter's Flower Pot</h4>
 
-<div class="indent">
+<div class="container">
     <p>Formerly the <a href="http://www.minecraftforum.net/topic/1611327-15162forge-painters-flower-pot-v159/" target="_blank">Painter's Flower Pot</a>, this block allows you to plant almost anything while retaining all the features of Carpenter's blocks.</p>
     <p>Right click inside the pot to place soil.  Flower pot components can now be removed in any order (except for soil if a plant is in pot).  Sneak left-click the plant to remove it, or sneak left-click the cover to remove the cover.  Soil cannot be removed unless the plant is removed first.</p>
     <p>The old paint colors have been converted to designs.  Left- or right-click the flower pot with the Carpenter's Hammer to cycle backwards or forwards through them.  Sneak right-click with the hammer to clear the design.  While the flower pot can support both covers and designs, it cannot support both simultaneously; if a cover exists, it will pop off when switching to a design.</p>
@@ -181,69 +239,98 @@
     <p>You can add your own flower pot designs by dropping your textures into the mod zip or jar file at: <em>assets/carpentersblocks/textures/blocks/designs/flowerpot/</em></p>
     <p>Once there, they will automatically be available the next time you start the game.</p>
 </div>
+</section>
 
 <hr>
 
+<section>
 <h4>Carpenter's Pressure Plate</h4>
 
-<div class="indent">
+<div class="container">
     <p>Left-click the pressure plate with the Carpenter's Hammer to alter the redstone signal polarity.  Set whether you want it to emit a signal when collided with, or whether you'd like to emit a signal only when nothing is colliding with it.</p>
     <p>Right-click the pressure plate with the Carpenter's Hammer to cycle through what type of entity should activate it.  The types of entities include: players, animals, monsters, or all entities (including arrows and dropped items).</p>
     <p>The pressure plate can be placed on any side of a block.</p>
 </div>
+</section>
 
 <hr>
 
+<section>
 <h4>Carpenter's Safe</h4>
 
-<div class="indent">
+<div class="container">
     <p>Right-click the safe with the Carpenter's Hammer to change automation permissions.  This controls whether things like pipes can insert or extract items from the safe.</p>
     <p>Sneak right-click the safe with the hammer to lock or unlock it.  When unlocked, the light on the front of the safe will turn green, and any player will be able to access the contents of the safe.  When locked, the light on the front will turn red, and only you or server operators will be able to access or destroy the safe.</p>
     <p>The blue light strip on the bottom-left side indicates the percentage of slots filled in the chest.</p>
     <p>You can upgrade the capacity of a safe by holding a gold ingot, emerald, or diamond and sneak right-clicking it.  This will increase the capacity to 54 slots, similar to the vanilla double chest.  You can get the upgrade item back by destroying the chest.</p>
 </div>
+</section>
 
 <hr>
 
+<section>
 <h4>Carpenter's Slope and Stairs</h4>
 
-<div class="indent">
+<div class="container">
     <p>Stairs will automatically orient themselves and form corners depending on where you click another block face.  Wedge slopes will do the same.</p>
     <p>Slopes have several types to choose from.  While holding a slope, cycle between them by holding sneak and scrolling up or down on your mouse wheel.  Top-facing prism slopes will connect to each other automatically.</p>
     <p>If auto-building functionality is making block placement difficult, hold the sneak key while placing the block to prevent this behavior.</p>
     <p>You can also manually cycle through stair and slope types and directions after block placement by left- or right-clicking them with the Carpenter's Hammer.</p>
 </div>
+</section>
 
 <hr>
 
+<section>
 <h4>Carpenter's Tile</h4>
 
-<div class="indent">
+<div class="container">
     <p>While holding the Carpenter's Hammer, sneak left-click tiles to remove them.  Left- or right-click them with the hammer to move backwards or forwards through designs.  Sneak right-click them with the hammer to rotate designs.</p>
     <p>You can dye tiles by right-clicking them with any of the 16 available dyes.  Bonemeal will strip the tile of it's dye properties.  Dyes are not consumed for this, and no dye will be returned upon the destruction of a tile.</p>
     <p>The tile was inspired by Kaevator's Wallpaper mod, and is not designed to mimic blocks in the game; instead, it offers users the opportunity to easily load their own designs into the game to be used as "tiles," or wallpapers by dragging the image files into the zip file under: <em>assets/carpentersblocks/textures/blocks/designs/tile</em></p>
     <p>If you'd like to use Kaevator's original wallpapers with tiles, I've provided a separate package in the <a href="downloads.html#add_files">additional files</a> section of the download area.</p>
 </div>
+</section>
 
 <hr>
 
+<section>
 <h4>Carpenter's Torch</h4>
 
-<div class="indent">
+<div class="container">
     <img src ="images/lantern.png" style="padding: 5px; margin: 0px 10px 10px 0px; background-color: #A9BCF5; border-radius: 5px; float: left;"></img>
     <p>When exposed to rain, and not protected by a block above, the vanilla torch style will randomly extinguish by first smoldering and eventually burning out.  The torch will relight itself after the weather lifts and it has a chance to dry.</p>
     <p>Alternatively, you can relight torches immediately by right-clicking them with another torch.</p>
     <p>Sneak right-click a torch with the Carpenter's Hammer to cycle through styles.  Current styles include vanilla and lantern types.</p>
     <br style="clear: both;">
 </div>
+</section>
 
 <hr>
 
+<section>
 <h4>Routable Fluids</h4>
 
-<div class="indent">
+<div class="container">
     <p>The configuration file contains an option to enable Routable Fluids.  When enabled, fluids adjacent to Carpenter's Blocks will appear to fill the empty block spaces.  This allows shallow water along slope edges and stairs, for instance.</p>
     <img src ="images/routablefluids.png"></img>
 </div>
-</body>
+</section>
+    <!-- Social-->
+    <section class="contact-section bg-black">
+        <div class="social d-flex justify-content-center">
+            <a class="mx-2" href="https://twitter.com/Sil3ntWxlf" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a class="mx-2" href="https://github.com/Sil3ntWxlf" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer bg-black small text-center text-white-50"><div class="container">Copyright© carpentersblocksreborn 2020 | All Rights reserved.</div></footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    </body>
 </html>
