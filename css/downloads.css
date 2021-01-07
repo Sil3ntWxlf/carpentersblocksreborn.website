@@ -10200,10 +10200,41 @@ body {
   letter-spacing: 0.15rem;
   border: 0;
 }
-
+.masthead2 {
+  position: relative;
+  width: auto;
+  height: auto;
+  min-height: 20rem;
+  padding: 4rem 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 65%, rgba(0, 0, 0, 0.7) 100%, #000000 100%), url("../assets/img/bg-masthead.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.masthead2 h1 {
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 2.0rem;
+  line-height: 2.25rem;
+  letter-spacing: 0.1rem;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.2));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+.masthead2 h2 {
+font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.15rem;
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4));
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.2);
+  -webkit-background-clip: text;
+          background-clip: text;
+}
 .masthead {
   position: relative;
-  width: 100%;
+  width: auto;
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
@@ -10215,40 +10246,14 @@ body {
 }
 .masthead h1 {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 2.5rem;
-  line-height: 2.5rem;
-  letter-spacing: 0.6rem;
+  font-size: 4.5rem;
+  line-height: 6.5rem;
+  letter-spacing: 0.1rem;
   background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.2));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
           background-clip: text;
 }
-.masthead h2 {
-  max-width: 20rem;
-  font-size: 1rem;
-}
-@media (min-width: 768px) {
-  .masthead h1 {
-    font-size: 4rem;
-    line-height: 4rem;
-  }
-}
-@media (min-width: 992px) {
-  .masthead {
-    height: 100vh;
-    padding: 0;
-  }
-  .masthead h1 {
-    font-size: 4.5rem;
-    line-height: 6.5rem;
-    letter-spacing: 0.8rem;
-  }
-  .masthead h2 {
-    max-width: 30rem;
-    font-size: 1.25rem;
-  }
-}
-
 .about-section {
   padding-top: 1.5rem;
   background: linear-gradient(to bottom, #010101 0%, rgba(0, 7, 11, 1) 80%, rgba(0, 7, 11, 1) 100%);
@@ -10342,6 +10347,23 @@ body {
 
 .footer {
   padding: 3.25rem 0;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.center2 {
+  margin: 0;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 /* Works on Firefox */
